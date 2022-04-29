@@ -16,8 +16,8 @@ class Curl2httpie < Formula
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     #system "./configure", *std_configure_args, "--disable-silent-rules"
-    system "/usr/local/opt/python@3.7/bin/python3","-m" ,"pip", "install", "-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "pyperclip"
-    system "/usr/local/opt/python@3.7/bin/python3","-m" ,"pip", "install", "-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "curlipie"
+    system "/usr/local/opt/python@3.7/bin/python3.7","-m" ,"pip", "install", "--user", "-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "pyperclip"
+    system "/usr/local/opt/python@3.7/bin/python3.7","-m" ,"pip", "install", "--user", "-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "curlipie"
     bin.install "curl2httpie.py"
     bin.install "curl_result_json.sh"
   end
