@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class HomebrewTap < Formula
+class Curl2Httpie < Formula
   desc ""
   homepage ""
   url "https://github.com/azouever/homebrew-tap/releases/download/v0.0.1/curl2httpie_0.0.1.tar.gz"
