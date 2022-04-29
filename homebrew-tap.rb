@@ -19,6 +19,8 @@ class HomebrewTap < Formula
     system "brew", "install", "httpie"
     system "/usr/local/opt/python@3.7/bin/pip3.7", "install", "pyperclip"
     system "/usr/local/opt/python@3.7/bin/pip3.7", "install", "curlipie"
+    bin.install "curl2httpie.py"
+    bin.install "curl_result_json.sh"
   end
 
   test do
